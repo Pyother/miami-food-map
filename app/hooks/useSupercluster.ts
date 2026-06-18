@@ -16,7 +16,7 @@ export const useSupercluster = (
     const supercluster = new Supercluster({
         radius: 60,
         maxZoom: 16
-    }).load(features);
+    }).load(features ?? []);
 
     const clusters = bounds ? supercluster.getClusters(bounds, Math.floor(zoom)) : [];
     const locations = mapClusterToLocation(clusters);
