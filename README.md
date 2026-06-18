@@ -36,7 +36,6 @@ Create .env file with variables:
 
 ```
 NEXT_PUBLIC_GEOAPIFY_API_KEY=your_api_key_here
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
 NEXT_PUBLIC_MAP_STYLE=https:your_map_style_here
 ```
 
