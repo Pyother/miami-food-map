@@ -27,8 +27,7 @@ const HomePage = async () => {
             <footer>
                 <p>The geocoding service is powered by Geoapify, data comes from OpenStreetMap.</p>
                 <p>Icons data comes from <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8.</a></p>
-                <p>© Stadia Maps © OpenMapTiles © OpenStreetMap contributors</p>
-                <p>Map style comes from <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a></p>
+                <p>Map tiles © <a href="https://www.geoapify.com" target="_blank" rel="noopener noreferrer">Geoapify</a> © OpenMapTiles © OpenStreetMap contributors</p>
             </footer> 
         </Suspense>
     )

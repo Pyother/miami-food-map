@@ -35,12 +35,12 @@ npm install
 Create .env file with variables:
 
 ```
-NEXT_PUBLIC_GEOAPIFY_API_KEY=your_api_key_here
+GEOAPIFY_API_KEY=your_api_key_here
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
-NEXT_PUBLIC_MAP_STYLE=https:your_map_style_here
+NEXT_PUBLIC_MAP_STYLE=https://maps.geoapify.com/v1/styles/dark-matter/style.json?apiKey=your_api_key_here
 ```
 
-You can get your API key from: https://www.geoapify.com, and map style from https://stadiamaps.com/products/maps/map-styles (or any other map plaform). 
+You can get your API key and browse available map styles from: https://www.geoapify.com. Replace `your_api_key_here` in both variables with your actual key.
 
 Start the development server:
 ```
